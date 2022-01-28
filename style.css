@@ -1,0 +1,40 @@
+* {
+  margin: 0 auto;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: chocolate;
+}
+
+#corpo {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 200px;
+  border: 5px solid black;
+  margin-top: 100px;
+  background-color: blue;
+}
+
+#texto {
+  font-size: 80px;
+  font-family: monospace;
+  margin-top: 40px;
+}
+
+#coin {
+  display: flex;
+  flex-direction: column;
+  width: 90px;
+  height: 90px;
+  background: url("./img/coin_dollar_finance_icon_125510.svg");
+  background-repeat: no-repeat;
+}
+
+#coin > span {
+  margin-top: 25px;
+  font-size: 40px;
+  font-family: monospace;
+}
